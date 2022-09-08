@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main1 {
+  display: flex;
+}
+
+.c1 {
+  width: 20%;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border: 1px solid darkgray;
+}
+
+.imgText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.containerImg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.containerText {
+  padding-left: 10px;
+}
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  color: darkgray;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.c2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border: 1px solid darkgrey;
+}
+
+.c2 button {
+  padding: 10px 20px;
+  background-color: rgb(128, 104, 151);
+  border: 1px blue solid;
+  color: white;
+}
+
+.regularCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid darkgray;
+}
+.regularCard img {
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.handContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+.handContainer img {
+  width: 150px;
+}
+
+p {
+  text-align: center;
+}
